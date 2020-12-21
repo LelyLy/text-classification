@@ -18,3 +18,5 @@ INPUT_POSITIVE_DATA= os.path.join(parent_directory, 'input_data/rt-polarity.pos'
 # input dataset
 INPUT_DATASET= os.path.join(parent_directory, 'input_data/output_data.csv')
 
+# output data directory
+OUTPUT_DATA_DIRECTORY = os.path.join(parent_directory, 'output_data/')

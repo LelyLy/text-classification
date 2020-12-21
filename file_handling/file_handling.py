@@ -86,4 +86,5 @@ class FileHandling:
                   "dataset_test": dataset_test,
                   "train_data_label": train_data_label,
                   "test_data_label": test_data_label}
+        print(f"dataset_train: {dataset_train.count()}, dataset_test: {dataset_test.count()}")
         return result
